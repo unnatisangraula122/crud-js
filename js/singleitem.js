@@ -14,5 +14,9 @@ function createSingleItem(item) {
     </button>
   `);
 
+   $div.find(".remove-btn").on("click", function () {
+    removeItem(item.id);
+  });
+  
   return $div;
 }
