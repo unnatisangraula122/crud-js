@@ -5,3 +5,4 @@ var grocerryItems = [
   { id: "4", name: "butter", completed: false },
 ]
     
+var items = grocerryItems;
